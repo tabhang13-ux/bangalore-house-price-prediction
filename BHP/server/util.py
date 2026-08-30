@@ -47,7 +47,7 @@ def load_saved_artifacts():
     global __model
 
     # Load model first
-    with open("./artifacts/Bengaluru_House_Data.pickle", "rb") as f:
+    with open("BHP/server/artifacts/Bengaluru_House_Data.pickle", "rb") as f:
         __model = pickle.load(f)
 
     # Use the EXACT feature names used during model training
